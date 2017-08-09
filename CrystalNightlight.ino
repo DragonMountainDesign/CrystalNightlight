@@ -9,6 +9,9 @@ int button = 3;
 // Button State Variable
 int buttonState = 0;
 
+// Time Delay
+int T = 3000;
+
 // the setup routine runs once when you press reset:
 void setup() {
   // initialize the LEDs as an output.
@@ -33,61 +36,61 @@ void loop() {
   digitalWrite(led3, LOW);
   digitalWrite(led4, HIGH);
   digitalWrite(led5, LOW);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, LOW);  // ON: 2,3. OFF: 1,4,5
   digitalWrite(led2, HIGH);
   digitalWrite(led3, HIGH);
   digitalWrite(led4, LOW);
   digitalWrite(led5, LOW);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, LOW);  // ON: 3,5. OFF: 1,2,4
   digitalWrite(led2, LOW);
   digitalWrite(led3, HIGH);
   digitalWrite(led4, LOW);
   digitalWrite(led5, HIGH);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, HIGH);  // ON: 5,1. OFF: 2,4,5
   digitalWrite(led2, LOW);
   digitalWrite(led3, LOW);
   digitalWrite(led4, LOW);
   digitalWrite(led5, HIGH);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, HIGH);  // ON: 1,4. OFF: 2,3,5
   digitalWrite(led2, LOW);
   digitalWrite(led3, LOW);
   digitalWrite(led4, HIGH);
   digitalWrite(led5, LOW);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, LOW);  // ON: 4,3. OFF: 2,4,5
   digitalWrite(led2, LOW);
   digitalWrite(led3, HIGH);
   digitalWrite(led4, HIGH);
   digitalWrite(led5, LOW);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, HIGH);  // ON: 1,3. OFF: 2,4,5
   digitalWrite(led2, LOW);
   digitalWrite(led3, HIGH);
   digitalWrite(led4, LOW);
   digitalWrite(led5, LOW);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, HIGH);  // ON: 1,2. OFF: 3,4,5
   digitalWrite(led2, HIGH);
   digitalWrite(led3, LOW);
   digitalWrite(led4, LOW);
   digitalWrite(led5, LOW);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, LOW);  // ON: 2,5. OFF: 2,3,4
   digitalWrite(led2, HIGH);
   digitalWrite(led3, LOW);
   digitalWrite(led4, LOW);
   digitalWrite(led5, HIGH);
-  delay(250);               // wait
+  delay(T);               // wait
   digitalWrite(led1, LOW);  // ON: 4,5. OFF: 2,3,5
   digitalWrite(led2, LOW);
   digitalWrite(led3, LOW);
   digitalWrite(led4, HIGH);
   digitalWrite(led5, HIGH);
-  delay(250);               // wait
+  delay(T);               // wait
  
   }  
   else {
